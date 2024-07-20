@@ -13,6 +13,6 @@ public class SpringbootJenkinsDemoApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-
+          System.out.println("@ Command Line runner...");
 	}
 }
