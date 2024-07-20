@@ -8,6 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringbootJenkinsDemoApplication implements CommandLineRunner {
 
 	public static void main(String[] args)  {
+		System.out.println("@ main method...");
 		SpringApplication.run(SpringbootJenkinsDemoApplication.class, args);
 	}
 
